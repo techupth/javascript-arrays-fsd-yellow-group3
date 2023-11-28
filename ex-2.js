@@ -10,7 +10,10 @@ const employees = [
     hobbies: ["Cryptocurrency", "Social media"],
   },
 ];
-// Start coding here
-let alex;
-let alexHobbies;
-let alexAndJamesAge;
+// Start coding hereq
+let alex = employees[1];
+let alexHobbies = employees[1].hobbies;
+let alexAndJamesAge = employees[0].age + employees[1].age;
+console.log(alex);
+console.log(alexHobbies);
+console.log(alexAndJamesAge);

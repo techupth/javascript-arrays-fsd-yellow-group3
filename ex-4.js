@@ -12,3 +12,15 @@ const employees = [
 ];
 
 // Start coding here
+employees.unshift({
+  name: "Kody",
+  age: 19,
+  hobbies: ["Computer Game", "Wakeboard"],
+});
+employees.unshift({
+  name: "Alicia",
+  age: 29,
+  hobbies: ["Shopping", "Reading novel"],
+});
+
+console.log(employees);
